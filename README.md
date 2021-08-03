@@ -30,9 +30,25 @@
 * manipulação de arquivos gerados
 
 <h2 id="run">Como Executar</h2>
-`back-end:
-  npm install
-`
+```bash
+# Clonar o repositório
+$ git clone https://github.com/lucasmatheus001/desafio-frontend-pleno-main
+
+# Vá para a pasta do repositório
+$ cd nome repositorio
+
+# Para instalar as dependências
+$ npm install
+
+# Iniciar aplicação web
+$ npm start
+
+# Acesse o seguinte link para acessar o arquivo .Json retornado da API.
+http://localhost:8080
+
+# Acesse o seguinte link para acessar os arquivo .Json retornados da API.
+http://localhost:3333/files
+```
 
 <h2 id="dep">Dependências</h2>
 
