@@ -1,5 +1,5 @@
 <h1 align="center">
-    # Web Scrapping
+    # Web Scrapping - BACKEND (NODE)
 </h1>
 <h1 align="center">
    (Login,captura de dados e geração de arquivo "csv" - AGESPISA)
@@ -19,17 +19,18 @@
 
 <h2 id="objective" > 🎯 Objetivos </h2>
 <p align="justify">
-  Realizar login automatizado no site do ministério da Fazenda e em seguida buscar,coletar informações , por meio de web         scrapping referentes a: (débitos, previdenciários e não previdenciários) e gerar ao final um arquivo "csv" com os dados       coletados.
+  Realizar login automatizado no site do ministério da Fazenda, em seguida buscar e coletar informações , por meio de web scrapping referentes a: (débitos, dados previdenciários e não previdenciários) e gerar ao final um arquivo "csv" com os dados coletados.
 </p>
 
-<h2 id="char">Principais características Técnicas</h2>
+<h2 id="char" >Principais características Técnicas</h2>
 
 * Realizar Login
 * Web Scrapping de dados 
 * geração de arquivo csv de dados
 * manipulação de arquivos gerados
 
-<h2 id="run">Como Executar</h2>
+<h2 id="run" >Como Executar</h2>
+
 ```bash
 # Clonar o repositório
 $ git clone https://github.com/lucasmatheus001/desafio-frontend-pleno-main
@@ -47,10 +48,19 @@ $ npm start
 http://localhost:8080
 
 # Acesse o seguinte link para acessar os arquivo .Json retornados da API.
-http://localhost:3333/files
-```
-<h2 id="dep">Dependências</h2>
+http://localhost:8080/arquivos/
 
-* Node js
-* Puppeteer e crawler
-* front com React
+# Acesse o seguinte link para realizar o download de um arquivo específico, passando como parâmetro seu nome na URL .
+http://localhost:8080/files/nomedoarquivo
+```
+
+<h2 id="dep" >Dependências</h2>
+
+* [Node js](https://nodejs.org/dist/latest-v14.x/docs/api/)
+* [Puppeteer](https://pptr.dev)
+* [Crawler](https://www.algolia.com/doc/tools/crawler/getting-started/overview/)
+* [Fetch](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch)
+* [Cors](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CORS)
+* [Express](https://devdocs.io/express/)
+* [Fs](https://nodejs.org/api/fs.html)
+* [Objects-to-csv](https://www.npmjs.com/package/objects-to-csv)
